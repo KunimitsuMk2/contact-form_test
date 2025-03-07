@@ -1,0 +1,51 @@
+/* 全体のリセット */
+body {
+    margin:  0 auto;
+    padding: 0;
+    background-color: #f3eee8;
+}
+
+/* ヘッダーのスタイル */
+.header {
+    display: flex;
+    background-color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 2px solid #e0dcd7;
+}
+
+.header__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header__logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #7c6e65;
+}
+
+.header__login {
+    font-size: 14px;
+    color: #7c6e65;
+    text-decoration: none;
+    border: 1px solid #7c6e65;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.header__login:hover {
+    background-color: #7c6e65;
+    color: white;
+}
+
+/* メインコンテンツのスタイル */
+.main {
+    padding: 40px 20px;
+    text-align: center;
+}
